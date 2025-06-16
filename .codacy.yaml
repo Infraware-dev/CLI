@@ -1,0 +1,5 @@
+tools:
+  pylint:
+    enabled: false
+  bandit:
+    enabled: true
