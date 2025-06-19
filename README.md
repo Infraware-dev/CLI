@@ -193,6 +193,28 @@ Suggest ways to reduce my cloud spending
 Set up billing alerts for when I exceed $500/month
 Show me cost trends for the last 6 months
 ```
+# Supported MCP Tools
+
+## Legend
+- ✅ **Supported** - Ready to use
+- 🚧 **In Progress** - Currently being developed
+
+| Category | Tool | Status |
+|----------|------|--------|
+| **Cloud Providers** | AWS | ✅ Supported |
+|  | GCP | ✅ Supported |
+|  | Azure | ✅ Supported |
+|  | Hetzner | 🚧 In Progress |
+|  | Linode | 🚧 In Progress |
+|  | DigitalOcean | 🚧 In Progress |
+| **Containers** | Docker | ✅ Supported |
+|  | Podman | 🚧 In Progress |
+|  | Kubernetes | 🚧 In Progress |
+| **Utils** | GitHub | 🚧 In Progress |
+
+---
+
+If you want to integrate a new MCP feel free to do it and contribute it otherwise just open an issue with your feature request and we'll work on it!
 
 ## 🤝 Contributing
 
