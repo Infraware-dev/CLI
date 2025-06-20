@@ -9,6 +9,7 @@ CLOUD_PROVIDERS = [
     {"name": "GCP", "full_name": "Google Cloud Platform", "color": "bright_blue"},
     {"name": "AWS", "full_name": "Amazon Web Services", "color": "bright_blue"},
     {"name": "Azure", "full_name": "Microsoft Azure", "color": "bright_blue"},
+    {"name": "Hetzner", "full_name": "Hetzner Cloud", "color": "bright_blue"},
     # Add more providers here as needed:
     # {"name": "Oracle", "full_name": "Oracle Cloud", "color": "bright_red"},
     # {"name": "IBM", "full_name": "IBM Cloud", "color": "bright_green"},

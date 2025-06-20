@@ -2,35 +2,24 @@
 
 **Your AI-powered multi-cloud operations assistant for seamless cloud infrastructure management.**
 
-Infraware CLI is an intelligent command-line interface that combines the power of AI with multi-cloud expertise to help you manage, deploy, and optimize your cloud infrastructure across Google Cloud Platform (GCP), Amazon Web Services (AWS), Microsoft Azure, and Docker environments.
+Infraware CLI is an intelligent command-line interface that combines the power of AI with multi-cloud expertise to help you manage, deploy, and optimize your cloud infrastructure across multiple cloud providers and containerized environments.
 
 ## ✨ Features
 
 ### 🌐 Multi-Cloud Support
-- **Google Cloud Platform (GCP)** - Complete project and resource management
-- **Amazon Web Services (AWS)** - EC2, Lambda, billing, and more
-- **Microsoft Azure** - Resource groups, deployments, and services
-- **Docker** - Container management and orchestration
 
 ### 🤖 AI-Powered Operations
-- Intelligent command interpretation and execution
-- Natural language cloud operations
-- Best practices recommendations
-- Cost optimization suggestions
-- Automated troubleshooting assistance
 
 ### 💻 Terminal Experience
-- **Command Completion** - Standard bash autocompletion
-- **Command History** - Persistent history with reverse search (Ctrl+R)
-- **Shell Integration** - Execute shell commands alongside AI operations
-- **Interactive Prompts** - Rich, colorful terminal interface
 
 ### 🧠 Contextual Memory
-- **Environment Awareness** - Remembers your cloud configurations and preferences
-- **Infrastructure Intelligence** - Learns your deployment patterns and resource usage
-- **Adaptive Reliability** - Improves accuracy and suggestions over time
-- **Context Retention** - Maintains awareness of your current project state and history
-- **Personalized Workflows** - Tailors recommendations based on your usage patterns
+
+### Quickstart
+
+- **Install the CLI** using the instructions below.
+- **Launch Infraware CLI** by running `ifw` in your terminal.
+- **Explore capabilities:** ask the CLI what it can do.
+- **Start managing your cloud infrastructure with ease!**
 
 
 ## 📦 Installation
@@ -204,7 +193,7 @@ Show me cost trends for the last 6 months
 | **Cloud Providers** | AWS | ✅ Supported |
 |  | GCP | ✅ Supported |
 |  | Azure | ✅ Supported |
-|  | Hetzner | 🚧 In Progress |
+|  | Hetzner | ✅  Supported |
 |  | Linode | 🚧 In Progress |
 |  | DigitalOcean | 🚧 In Progress |
 |  | Vercel | 🚧 In Progress |
