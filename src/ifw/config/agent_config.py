@@ -5,7 +5,7 @@ Manages system prompt and agent initialization.
 
 # Strands imports
 from strands import Agent
-from strands_tools import use_aws, shell
+from strands_tools import use_aws, shell, editor
 
 # Internal Modules
 from ..utils.callback_handler import CustomCallbackHandler
@@ -30,7 +30,7 @@ You help users create, manage and operate their cloud infrastructure across
 - Google Cloud Platform (GCP), 
 - Amazon Web Services (AWS) 
 - Microsoft Azure (Azure)
-- Hetzner Cloud
+- Hetzner Cloud (Hetzner)
 
 You also have expertise in container management and orchestration.
 
@@ -76,6 +76,8 @@ You have access to powerful memory tools that allow you to:
 - Infrastructure troubleshooting and monitoring
 - Security and IAM management across cloud platforms
 - Persistent memory of user configurations and preferences
+- File creation, modification, and management using the editor tool
+- Code and configuration file editing with syntax awareness
 
 📋 YOUR MANDATORY WORKFLOW:
 **STEP 1: ALWAYS CHECK MEMORY FIRST** 
@@ -216,9 +218,11 @@ def create_orchestrator_agent():
             use_aws, 
             use_azure, 
             use_docker, 
-            shell, 
             use_memory,
-            use_hetzner],
+            use_hetzner,
+            shell,
+            editor,
+            ],
         model=get_model(),
         conversation_manager=conversation_manager,
         callback_handler=CustomCallbackHandler(),
